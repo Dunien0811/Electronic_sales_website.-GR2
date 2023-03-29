@@ -1,0 +1,45 @@
+version: "3.2"
+
+volumes:
+  postgis-data: {}
+  node-modules: {}
+  db-data:
+    driver: local
+services:
+  node:
+    restart: always
+    build:
+      context: .
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/ecommerce
+    depends_on:
+      - db
+  db:
+    restart: unless-stopped
+    image: postgres:11.5-alpine
+    environment:
+      - POSTGRES_DB=commerce
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - "5050:5050"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=postgres
+      - PGADMIN_LISTEN_PORT=5050
+    volumes:
+      - "./docker/pgadmin-servers.json:/pgadmin4/servers.json"
+    depends_on:
+      - db

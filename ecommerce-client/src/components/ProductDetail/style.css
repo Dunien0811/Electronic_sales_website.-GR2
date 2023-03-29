@@ -1,0 +1,184 @@
+.fix-img-div {
+  height: 200px !important;
+  width: 230px !important;
+  overflow: hidden;
+}
+.fix-img {
+  height: 90%;
+  width: 90% !important;
+  object-fit: contain;
+  padding: 10px;
+}
+.fix-rating {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.fix-btn-review {
+  height: 33px;
+  background: #fed700;
+  border: #6b0bc4cc;
+}
+
+.btn-grey {
+  background-color: #d8d8d8;
+  color: #fff;
+}
+.rating-block {
+  background-color: #fafafa;
+  border: 1px solid #efefef;
+  padding: 15px 15px 20px 15px;
+  border-radius: 3px;
+}
+.bold {
+  font-weight: 700;
+}
+.padding-bottom-7 {
+  padding-bottom: 7px;
+}
+
+.review-block {
+  background-color: #fafafa;
+  border: 1px solid #efefef;
+  padding: 25px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.review-block-name {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.review-block-date {
+  font-size: 12px;
+}
+.review-block-rate {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.review-block-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.review-block-description {
+  font-size: 13px;
+}
+
+.fix-avatar-div {
+  height: auto;
+  width: 80px;
+  overflow: hidden;
+}
+.fix-avatar {
+  height: 90%;
+  width: 90% !important;
+  object-fit: contain;
+  padding: 5px;
+}
+.fix-view-all {
+  display: block;
+  color: #2626e8e0;
+  font-size: 15px;
+  padding: 2px 0px 10px;
+}
+
+.fix-fb {
+  z-index: 9999999999;
+}
+
+.slick-prev,
+.slick-next {
+  top: 33% !important;
+  z-index: 1;
+  background: #f4dd43e3 !important;
+  font-size: 20px !important;
+  font-family: initial;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 15px !important;
+}
+
+.fix-ml {
+  margin-left: 2.5rem!important;
+}
+
+.sp-normal-content .product-additional-info {
+  padding-top: 15px !important;
+}
+
+.fix-width-slick {
+  margin: auto;
+  text-align: center;
+  max-width: 400px !important;
+  height: auto;
+}
+
+.fix-img-slick {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain;
+  padding: 5px;
+  transition: transform .6s;
+}
+
+.fix-img-div-slick {
+  height: 300px !important;
+  width: 300px !important;
+  overflow: hidden;
+}
+
+.fix-img-slick:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.slick-dots li {
+  width: auto !important;
+  padding: 0 !important;
+}
+
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.ReactModal__Overlay--after-open {
+  z-index: 9999;
+}
+
+.slick-list {
+  height: 461px !important;
+  margin-top: 35px !important;
+}
+
+.slick-arrow slick-prev {
+  background: black !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 33% !important;
+  z-index: 1;
+  background: #f4dd43e3 !important;
+  font-size: 20px !important;
+  font-family: initial;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 15px !important;
+}
+
+.fix-ml {
+  margin-left: 2.5rem!important;
+}
+
+.fix-img-div-other {
+  height: 230px;
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.fix-img-other {
+  height: 90%;
+  width: 80% !important;
+  object-fit: contain;
+}

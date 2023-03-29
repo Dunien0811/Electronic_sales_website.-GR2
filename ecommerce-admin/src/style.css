@@ -1,0 +1,10 @@
+.hidden-loading {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffff;
+    position: fixed;
+    z-index: 99999999;
+    opacity: 0.7;
+}

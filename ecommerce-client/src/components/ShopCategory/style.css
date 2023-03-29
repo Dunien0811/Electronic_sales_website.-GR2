@@ -1,0 +1,38 @@
+.fix-img-div {
+    height: 220px;
+    width: 230px;
+    overflow: hidden;
+  }
+  .fix-img {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .fix-img-div2 {
+    height: 56px !important;
+    width: 140px !important;
+    overflow: hidden;
+  }
+  .fix-img2 {
+    height: 95% !important;
+    width: 100% !important;
+    object-fit: contain;
+    border: 1px solid #e6d7d7;
+    border-radius: 5px;
+    padding: 1px;
+  }
+  .price-checkbox li a, .size-checkbox li a, .color-categoriy ul li a, .categori-checkbox ul li a {
+    color: #363f4d;
+    font-size: 16px;
+    margin-left: 0px !important;
+    margin-top: 0;
+  }
+
+  .fix-producers {
+    text-align: left;
+    font-size: 19px !important;
+    padding-left: 3px !important;
+    font-weight: 600 !important;
+    font-family: sans-serif;
+  }

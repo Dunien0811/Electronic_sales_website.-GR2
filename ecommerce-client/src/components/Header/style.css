@@ -1,0 +1,35 @@
+.fix-text-item {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #242424e3;
+  padding: 6px;
+  font-weight: 100;
+}
+.fix-link-color {
+  color: #242424;
+}
+
+.bg-light {
+  background-color: #fed700!important;
+  font-size: 16px;
+  font-weight: 600!important;
+  padding: 10px 0 5px;
+  font-family: sans-serif;
+  color: black;
+}
+.navbar-brand {
+  padding-top: 0 !important;
+}
+
+.dropdown-item {
+  padding: 10px 15px !important;
+}
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #b91773;
+  border-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000ad !important;
+}

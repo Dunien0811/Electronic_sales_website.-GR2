@@ -1,0 +1,12 @@
+.fix-create-action {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.chartjs-render-monitor {
+  margin-top: 15px !important;
+}
+
+.fix-title-pie {
+  padding-top: 15px;
+}

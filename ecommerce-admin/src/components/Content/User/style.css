@@ -1,0 +1,17 @@
+.fix-create-action {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.fix-cart {
+  height: 120px;
+  width: 150px;
+  overflow: hidden;
+}
+.fix-img {
+  height: 100%;
+  padding-top: 5px;
+  width: 100%;
+  object-fit: contain;
+  padding-right: 35px;
+}

@@ -1,0 +1,36 @@
+.slick-list {
+  height: 461px !important;
+  margin-top: 35px !important;
+}
+
+.slick-arrow slick-prev {
+  background: black !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 33% !important;
+  z-index: 1;
+  background: #f4dd43e3 !important;
+  font-size: 20px !important;
+  font-family: initial;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 15px !important;
+}
+
+.fix-ml {
+  margin-left: 2.5rem!important;
+}
+
+.fix-img-div-trend {
+  height: 230px;
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.fix-img-trend {
+  height: 90%;
+  width: 80% !important;
+  object-fit: contain;
+}
