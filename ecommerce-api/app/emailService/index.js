@@ -35,14 +35,14 @@ async function sendEmailResetPassword(receiverEmail, resetPasswordUrl) {
   try {
     const content = await email
       .render(passwordReset, {
-        name: 'Limupa Shop',
+        name: 'Gr2 Shop',
         token: resetPasswordUrl,
         timeToken: 24
       });
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: receiverEmail,
-      subject: 'Limupa Shop! Reset password request',
+      subject: 'Gr2 Shop! Reset password request',
       html: content
     };
     sgMail.send(mailOptions);
@@ -61,7 +61,7 @@ async function sendEmailContactEmail(receiverEmail) {
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: receiverEmail,
-      subject: 'Limupa Shop! Re: your contact 1',
+      subject: 'Gr2 Shop! Re: your contact 1',
       html: content
     };
     sgMail.send(mailOptions)
@@ -80,7 +80,7 @@ async function sendEmailCreateOrderEmail(receiverEmail) {
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: receiverEmail,
-      subject: 'Limupa Shop! Your order has been created',
+      subject: 'Gr2 Shop! Your order has been created',
       html: content
     };
     sgMail.send(mailOptions);
@@ -107,7 +107,7 @@ async function sendEmailShippedOrder(id) {
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: user.email,
-      subject: 'Limupa Shop! Your order was shipping',
+      subject: 'Gr2 Shop! Your order was shipping',
       html: content
     };
     sgMail.send(mailOptions);
@@ -137,7 +137,7 @@ async function sendEmailConfirmOrderEmail(id) {
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: user.email,
-      subject: 'Limupa Shop! Your order has been confirmed',
+      subject: 'Gr2 Shop! Your order has been confirmed',
       html: content
     };
     sgMail.send(mailOptions);
@@ -164,7 +164,7 @@ async function sendEmailCompleteOrderEmail(id) {
     const mailOptions = {
       from: config.sendgrid.fromEmail,
       to: user.email,
-      subject: 'Limupa Shop! Your order has been completed',
+      subject: 'Gr2 Shop! Your order has been completed',
       html: content
     };
     sgMail.send(mailOptions);

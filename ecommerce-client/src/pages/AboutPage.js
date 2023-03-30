@@ -46,7 +46,7 @@ export default class AboutPage extends Component {
           <div className="container-fluid p-0">
             <div className="row no-gutters">
               <div className="col-lg-3 col-md-6">
-                {/* Begin Limupa Counter Area */}
+                {/* Begin Gr2Counter Area */}
                 <div className="limupa-counter white-smoke-bg">
                   <div className="container">
                     <div className="counter-img">
@@ -62,10 +62,10 @@ export default class AboutPage extends Component {
                     </div>
                   </div>
                 </div>
-                {/* limupa Counter Area End Here */}
+                {/* Gr2Counter Area End Here */}
               </div>
               <div className="col-lg-3 col-md-6">
-                {/* Begin limupa Counter Area */}
+                {/* Begin Gr2Counter Area */}
                 <div className="limupa-counter gray-bg">
                   <div className="counter-img">
                     <img src="https://i.ibb.co/f1Zj6SL/2.png" alt="" />
@@ -79,10 +79,10 @@ export default class AboutPage extends Component {
                     </div>
                   </div>
                 </div>
-                {/* limupa Counter Area End Here */}
+                {/* Gr2Counter Area End Here */}
               </div>
               <div className="col-lg-3 col-md-6">
-                {/* Begin limupa Counter Area */}
+                {/* Begin Gr2Counter Area */}
                 <div className="limupa-counter white-smoke-bg">
                   <div className="counter-img">
                     <img src="https://i.ibb.co/vBktQgS/3.png" alt="" />
@@ -96,10 +96,10 @@ export default class AboutPage extends Component {
                     </div>
                   </div>
                 </div>
-                {/* limupa Counter Area End Here */}
+                {/* Gr2Counter Area End Here */}
               </div>
               <div className="col-lg-3 col-md-6">
-                {/* Begin limupa Counter Area */}
+                {/* Begin Gr2Counter Area */}
                 <div className="limupa-counter gray-bg">
                   <div className="counter-img">
                     <img src="https://i.ibb.co/z5t0Q7H/4.png" alt="" />
@@ -113,7 +113,7 @@ export default class AboutPage extends Component {
                     </div>
                   </div>
                 </div>
-                {/* limupa Counter Area End Here */}
+                {/* Gr2Counter Area End Here */}
               </div>
             </div>
           </div>

@@ -54,8 +54,9 @@ class Login extends Component {
               <div className="col-lg-6">
                 <div className="info d-flex align-items-center">
                   <div className="content">
-                    <div className="logo">
-                      <h1>Shop admin</h1>
+                    <div className="logo"  >
+                      <h1>Shop Gr2 admin</h1>
+                      <img src="https://i.ibb.co/W3hQY0s/Untitled-1-01-1.png" alt="" className=""  />
                     </div>
                   </div>
                 </div>

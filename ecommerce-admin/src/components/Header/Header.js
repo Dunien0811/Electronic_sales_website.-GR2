@@ -31,7 +31,7 @@ class Header extends Component {
               {/* Navbar Header*/}
               <div className="navbar-header">
                 {/* Navbar Brand */}<Link to="/" className="navbar-brand d-none d-sm-inline-block">
-                  <div className="brand-text d-none d-lg-inline-block"><strong>Admin limupa</strong></div></Link>
+                  <div className="brand-text d-none d-lg-inline-block"><strong>Admin Gr2</strong></div></Link>
               </div>
               {/* Navbar Menu */}
               <ul className="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">

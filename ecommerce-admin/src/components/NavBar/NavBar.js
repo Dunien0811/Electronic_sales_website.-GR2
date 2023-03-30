@@ -35,7 +35,7 @@ class NavBar extends Component {
       <nav className="side-navbar">
         {/* Sidebar Header*/}
         <div className="sidebar-header d-flex align-items-center">
-          <div className="avatar"><img src={newUser && newUser.avatar ? newUser.avatar : 'https://i.ibb.co/NCdx7FF/avatar-Default.png'} alt="notfound" className="img-fluid rounded-circle" /></div>
+          <div className="avatar"><img src={newUser && newUser.avatar ? newUser.avatar : 'https://png.pngtree.com/png-vector/20191124/ourmid/pngtree-beautiful-admin-roles-line-vector-icon-png-image_2029691.jpg'} alt="notfound" className="img-fluid rounded-circle" /></div>
           <div className="title">
             <h1 className="h4">{newUser && newUser.name ? newUser.name : null}</h1>
             <p><b style={{fontWeight: 600}}>{newUser ? newUser.role.nameRole : null}</b></p>
