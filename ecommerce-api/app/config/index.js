@@ -1,6 +1,6 @@
 const config = {
   database: {
-    connection: 'postgres://postgres:dunien811@localhost:5432/dunien',
+    connection: 'postgres://postgres:dunien811@localhost:5432/db',
   },
   api: {
     host: "localhost",
