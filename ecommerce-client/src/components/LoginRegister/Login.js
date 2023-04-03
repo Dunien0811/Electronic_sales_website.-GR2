@@ -29,15 +29,9 @@ class Login extends Component {
     });
   }
 
-  recaptchaLoaded(){
-    //reload captcha
-  }
-
   handleSubmit = async event => {
     event.preventDefault();
-    const { email, password, isVerified } = this.state;
-    //verifi captcha
-    if (isVerified) {
+    const { email, password } = this.state;
       if (password.length < 6 || password.length > 32) {
         return toast.error('Password must be 6-32 characters');
       }
@@ -48,9 +42,6 @@ class Login extends Component {
       startLoading();
       await this.props.loginRequest(user);
       doneLoading();
-    } else {
-      return toast.error('Please confirm captcha');
-    }
   }
   verifyCallback(res) {
     if (res) {

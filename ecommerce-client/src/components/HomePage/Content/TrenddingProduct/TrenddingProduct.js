@@ -21,7 +21,7 @@ class TrenddingProduct extends Component {
   render() {
     const { products } = this.props;
     const settings = {
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1
@@ -37,9 +37,9 @@ class TrenddingProduct extends Component {
                   <span>Trendding Products</span>
                 </h2>
                 <ul className="nav li-product-menu li-trending-product-menu">
-                  <li><a className="active" data-toggle="tab" href="#home1"><span>Sanai</span></a></li>
+                  {/* <li><a className="active" data-toggle="tab" href="#home1"><span>Sanai</span></a></li>
                   <li><a data-toggle="tab" href="#home2"><span>Camera Accessories</span></a></li>
-                  <li><a data-toggle="tab" href="#home3"><span>XailStation</span></a></li>
+                  <li><a data-toggle="tab" href="#home3"><span>XailStation</span></a></li> */}
                 </ul>
               </div>
               {/* Begin Li's Tab Menu Content Area */}
