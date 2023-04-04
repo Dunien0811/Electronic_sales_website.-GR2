@@ -4,7 +4,7 @@ const config = {
   },
   api: {
     host: "0.0.0.0",
-    port: 80,
+    port: 3001,
   },
   jwt: {
     secretKey: "secretKey123",
