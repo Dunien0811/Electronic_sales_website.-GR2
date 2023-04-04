@@ -3,7 +3,7 @@ const config = {
     connection: 'postgres://xwgeygnw:9sVtHWvLF5T88utbDk4VDuUAeOubjZNT@trumpet.db.elephantsql.com/xwgeygnw',
   },
   api: {
-    host: "ecommerce-api-ask7.onrender.com",
+    host: "0.0.0.0",
     port: 80,
   },
   jwt: {

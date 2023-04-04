@@ -10,6 +10,8 @@ const config = require('./config')
 require('dotenv').config();
 
 const server = new Hapi.Server({
+  host: config.api.host,
+  port: config.api.port,
   routes: {
     cors: {
       origin: ['*'],
