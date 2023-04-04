@@ -1,6 +1,6 @@
 export const config = {
   api: {
-    url: 'http://localhost:8080/api/v1'
+    url: 'https://ecommerce-api-ask7.onrender.com/api/v1'
   },
   firebaseConfig: {
     apiKey: "AIzaSyDHpg65thpIrLMwdV8IRiulTIctxlUllMs",

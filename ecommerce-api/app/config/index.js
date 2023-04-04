@@ -1,10 +1,10 @@
 const config = {
   database: {
-    connection: 'postgres://postgres:dunien811@localhost:5432/db',
+    connection: 'postgres://xwgeygnw:9sVtHWvLF5T88utbDk4VDuUAeOubjZNT@trumpet.db.elephantsql.com/xwgeygnw',
   },
   api: {
-    host: "localhost",
-    port: 8080,
+    host: "ecommerce-api-ask7.onrender.com",
+    port: 443,
   },
   jwt: {
     secretKey: "secretKey123",
@@ -14,7 +14,7 @@ const config = {
     fromEmail: null,
   },
   webClient: {
-    url: "http://localhost:3007",
+    url: "https://ecommerce-api-ask7.onrender.com",
   },
 };
 
