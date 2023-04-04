@@ -4,7 +4,7 @@ const config = {
   },
   api: {
     host: "ecommerce-api-ask7.onrender.com",
-    port: 443,
+    port: 80,
   },
   jwt: {
     secretKey: "secretKey123",
