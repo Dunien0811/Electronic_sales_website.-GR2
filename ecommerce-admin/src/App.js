@@ -29,7 +29,12 @@ class App extends Component {
       this.props.add_token_redux(token);
       const res = await callApi('users/me', 'GET', null, token);
       if (res && res.status === 200) {
-      this.props.add_token_redux_role(res.data.results[0].role.nameRole);
+        const role = res.data.results && 
+          res.data.results[0] && 
+          res.data.results[0].role
+            ? res.data.results[0].role.nameRole
+            : null;
+      this.props.add_token_redux_role(role);
     }
     }
   }
