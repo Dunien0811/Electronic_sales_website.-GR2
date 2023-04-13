@@ -26,7 +26,7 @@ class LaptopArea extends Component {
             <div className="col-lg-12">
               <div className="li-section-title">
                 <h2>
-                  <span>Laptop</span>
+                  <span>OFFICE</span>
                 </h2>
                 <ul className="li-sub-category-list">
                   {/* <li className="active"><a href="/">Prime Video</a></li>
