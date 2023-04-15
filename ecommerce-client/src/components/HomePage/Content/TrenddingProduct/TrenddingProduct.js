@@ -34,7 +34,7 @@ class TrenddingProduct extends Component {
             <div className="col-lg-12">
               <div className="li-product-tab li-trending-product-tab">
                 <h2>
-                  <span>Trendding Products</span>
+                  <span>Trendding Laptop </span>
                 </h2>
                 <ul className="nav li-product-menu li-trending-product-menu">
                   {/* <li><a className="active" data-toggle="tab" href="#home1"><span>Sanai</span></a></li>

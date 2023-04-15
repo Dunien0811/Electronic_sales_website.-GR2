@@ -12,7 +12,7 @@ export default class FooterMiddle extends Component {
                 <div className="footer-logo">
                   <img src="https://i.ibb.co/hBqzHKC/Untitled-1.gif" alt="Footer Logo" />
                   <p className="info">
-                    We are a team of designers and developers that create high quality HTML Template &amp; Woocommerce, Shopify Theme.
+                    
             </p>
                 </div>
                 <ul className="des">
