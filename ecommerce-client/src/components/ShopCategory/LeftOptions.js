@@ -65,7 +65,7 @@ class LeftOptions extends Component {
           </div>
           <button onClick={() => this.handleProductsProducerAll()} className="btn-clear-all mb-sm-30 mb-xs-30">Clear all</button>
           <div className="filter-sub-area">
-            <h5 className="fix-producers filter-sub-titel">Producers</h5>
+            <h5 className="fix-producers filter-sub-titel">Brand</h5>
             <div className="categori-checkbox">
               <form action="/">
                 <ul>
