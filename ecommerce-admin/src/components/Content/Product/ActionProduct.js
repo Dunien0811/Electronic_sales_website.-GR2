@@ -373,7 +373,7 @@ class ActionProduct extends Component {
                       </div>
                       <div className="line" />
                       <div className="form-group row">
-                        <label className="col-sm-3 form-control-label">Producer</label>
+                        <label className="col-sm-3 form-control-label">Brand</label>
                         <div className="col-sm-9">
                           <select className="form-control mb-3" name="producerId" value={producerId} onChange={this.handleChangeSelecProducer} >
                             {

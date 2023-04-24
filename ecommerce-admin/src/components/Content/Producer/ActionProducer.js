@@ -162,7 +162,7 @@ class ActionProducer extends Component {
                   <div className="card-body">
                     <form className="form-horizontal" onSubmit={(event) => this.handleSubmit(event)} >
                       <div className="form-group row">
-                        <label className="col-sm-3 form-control-label">Name Producer</label>
+                        <label className="col-sm-3 form-control-label">Name Brand</label>
                         <div className="col-sm-9">
                           <input name="name" onChange={this.handleChange} value={name} type="text" className="form-control" />
                         </div>
@@ -192,9 +192,9 @@ class ActionProducer extends Component {
                                 <div key={index} className="i-checks" style={{ display: 'inline-block', paddingRight: 35 }} >
                                   {
                                     item.id === categoryId ?
-                                      <input id={index} name="categoryId" checked value={categoryId} onChange={this.handleChange} type="radio" value={item.id} className="radio-template" />
+                                      <input id={index} name="categoryId" checked value={categoryId} onChange={this.handleChange} type="radio" value1={item.id} className="radio-template" />
                                       :
-                                      <input id={index} name="categoryId" value={categoryId} onChange={this.handleChange} type="radio" value={item.id} className="radio-template" />
+                                      <input id={index} name="categoryId" value={categoryId} onChange={this.handleChange} type="radio" value1={item.id} className="radio-template" />
                                   }
                                   <label>{item.nameCategory}</label>
                                 </div>
