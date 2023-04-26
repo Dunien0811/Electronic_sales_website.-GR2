@@ -100,14 +100,14 @@ class Producer extends Component {
         {/* Page Header*/}
         <header className="page-header">
           <div className="container-fluid">
-            <h2 className="no-margin-bottom">Brand</h2>
+            <h2 className="no-margin-bottom">Producers</h2>
           </div>
         </header>
         {/* Breadcrumb*/}
         <div className="breadcrumb-holder container-fluid">
           <ul className="breadcrumb">
             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-            <li className="breadcrumb-item active">Brand</li>
+            <li className="breadcrumb-item active">Producers</li>
           </ul>
         </div>
         <section className="tables pt-3">
@@ -116,7 +116,7 @@ class Producer extends Component {
               <div className="col-lg-12">
                 <div className="card">
                   <div className="card-header d-flex align-items-center">
-                    <h3 className="h4">Data Table Brand</h3>
+                    <h3 className="h4">Data Table Producers</h3>
                     <button onClick={()=>this.downloadExcel()} style={{ border: 0, background: "white" }}> <i className="fa fa-file-excel-o"
                         style={{fontSize: 18, color: '#1d7044'}}> Excel</i></button>
                   </div>
@@ -171,7 +171,7 @@ class Producer extends Component {
                                 <td style={{ textAlign: "center" }}>
                                   <div>
                                     <span title='Edit' className="fix-action"><Link to={`producers/edit/${item.id}`}> <i className="fa fa-edit"></i></Link></span>
-                                    <span title='Delete' onClick={() => this.handleRemove(item.id)} className="fix-action"><Link to="#"> <i className="fa fa-trash" style={{ color: '#ff00008f' }}></i></Link></span>
+                                    <span title='Delete' onClick={() => this .handleRemove(item.id)} className="fix-action"><Link to="#"> <i className="fa fa-trash" style={{ color: '#ff00008f' }}></i></Link></span>
                                   </div>
                                 </td>
                               </tr>

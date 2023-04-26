@@ -47,7 +47,7 @@ class ActionProducer extends Component {
       dataCategories: resCategories.data.results,
     });
     if (id) {
-      const res = await callApi('producers/${id}', "GET", null, token);
+      const res = await callApi(`producers/${id}`, "GET", null, token);
       this.setState({
         isActive: res.data.isActive,
         name: res.data.name,
