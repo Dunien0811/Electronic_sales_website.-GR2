@@ -33,5 +33,3 @@ import * as Config from '../constants/Config';
     };
     request.send();
   };
-
-  //chua chay
